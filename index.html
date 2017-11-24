@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="k-on,kon,season,kyoani,Kyoto Animation">
+  <meta name="description" content="Web page dedicated to k-on!">
+  <meta name="author" content="Diego Aragon">
+  <meta http-equiv=”Content-Language” content=”en”>
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  <meta name=”distribution” content=”global”>
+	<title>K-on! new season</title>
+	<link rel="stylesheet" href="index_style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src='script.js'></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	 <audio autoplay controls loop>
+  		<source src="1.mp3" type="audio/mpeg">
+	</audio> 
+</head>
+<body>
+  <div class="body">
+    <div class="content">
+      <div class="up" >
+        <h1>It's been</h1>  
+      </div>
+      <div id="countup">
+        <div class="timeContener">
+          <div class="tiempo">
+            <p id="years">00</p>
+            <p class="timeRef">years</p>
+          </div>
+          <div class="tiempo">
+            <p id="days">00</p>
+            <p class="timeRef">days</p>  
+          </div>
+          <div class="tiempo">
+            <p id="hours">00</p>
+            <p class="timeRef">hours</p>
+          </div>
+          <div class="tiempo">
+            <p id="minutes">00</p>
+            <p class="timeRef">minutes</p>
+          </div>
+          <div class="tiempo">
+            <p id="seconds">00</p>
+            <p class="timeRef">second</p>
+          </div>
+        </div>
+      </div>
+      <div class="K-on">
+        <h1>without a new season of K-on</h1>
+        <a onclick="window.open('https://twitter.com/intent/tweet?text=@kyoani%20please%20make%20a%20new%20season%20of%20K-On!%20(tweet%20via%20:%20[NUESTRO URL])', 
+                         'newwindow', 
+                         'width=500,height=450'); 
+              return false;" class="tweetbutton" title="Tweet for a new season">Tweet to make the difference</a>
+      </div>
+    </div>
+  </div>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110069797-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-110069797-1');
+</script>
+
+</body>
+</html>
